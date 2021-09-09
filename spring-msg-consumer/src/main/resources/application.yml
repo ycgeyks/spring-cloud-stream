@@ -3,11 +3,11 @@ server:
 spring:
   application:
     name: spring-msg-consumer
-  cloud:
-    stream:
-      bindings:
-        myInput:
-          group: groupA
+#  cloud:
+#    stream:
+#      bindings:
+#        myInput:
+#          group: groupA
 eureka:
   client:
     serviceUrl:

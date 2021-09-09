@@ -5,6 +5,6 @@ import org.springframework.messaging.SubscribableChannel;
 
 public interface SendService {
 
-	@Output("myInput")//myInput是交换器Exchange名称?
+	@Output("myInput")//myInput是交换器Exchange名称
 	SubscribableChannel sendOrder();
 }
