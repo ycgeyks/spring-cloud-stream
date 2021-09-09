@@ -1,0 +1,6 @@
+# Project exclude paths
+/spring-msg-consumer/target/
+/spring-msg-consumer2/target/
+/spring-msg-consumer3/target/
+/spring-msg-producer/target/
+/spring-msg-server/target/
